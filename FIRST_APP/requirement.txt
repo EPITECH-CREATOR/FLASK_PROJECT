@@ -1,0 +1,7 @@
+pip install flask
+Créer un fichier nommé app.py
+
+Si vous voulez utiliser des fichiers html:
+    - Vous devez créer un dossier templates pour y mettre vos fichiers html.
+    - Dans le fichier app.py vous devrez utiliser la fonction render_template de la librairie flask.
+    - Mettez en paramètre de cette fonction le fichier html correspondant à la route que vous voulez utiliser.
